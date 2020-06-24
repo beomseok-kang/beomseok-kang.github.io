@@ -1,0 +1,80 @@
+/* HEADER */
+header.section--header.on{
+    height: auto;
+}
+header .header--upper {
+    height: 80px;
+}
+header .inner .logo {
+    margin-left: 20px;
+}
+#toggle-btn {
+    display: block;
+}
+header .inner .toggle {
+    display: none;
+}
+header .inner .toggle.on {
+    display: block;
+    height: auto;
+}
+header .inner .main-menu.toggle {
+    float: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+header .inner .main-menu.toggle li a{
+    border-top: 1px solid #e5e5e5;
+    margin: 0 20px;
+    display: block;
+    padding: 20px 10px;
+}
+
+/* DESIGN */
+.section--design {
+    height: auto;
+}
+.section--design .inner {
+    padding: 10% 0;
+}
+.section--design .inner .summary {
+    padding: 30px 200px 30px 20px;
+}
+.section--design .inner .screen--home {
+    top: 20%;
+    right: 20px;
+    width: 150px;
+    height: 315.98px;
+    border-radius: 20px;
+}
+
+/* RELAYS */
+.section--relays {
+    height: auto;
+}
+.section--relays .inner {
+    padding: 10% 0;
+}
+.section--relays .inner .summary {
+    padding: 30px 20px 30px 200px;
+}
+.section--relays .inner .screen--relays {
+    top: 20%;
+    left: 20px;
+    width: 150px;
+    height: 315.98px;
+    border-radius: 20px;
+}
+
+/* CONTACT */
+.section--contact {
+    height: auto;
+}
+.section--contact .inner {
+    padding: 20% 10%;
+}
+.section--contact .inner .contact-info {
+    display: block;
+}
+.section--contact .inner .contact-info li {
+    margin: 20px 0;
+}

@@ -1,0 +1,51 @@
+/* DESIGN */
+.section--design .inner {
+    display: block;
+    clear: both;
+    padding: 10% 0;
+}
+.section--design .inner .summary {
+    float: none !important;
+    display: block;
+    padding: 20px;
+}
+.section--design .inner .summary .summary__title {
+    font-size: 28px;
+}
+.section--design .inner .summary .summary__description {
+    font-size: 24px;
+}
+.section--design .inner .screen--home {
+    margin: 20px auto;
+    clear: both;
+    position: static;
+    min-width: 200px;
+    height: 421.31px;
+    border-radius: 26.667px;
+}
+
+/* RELAYS */
+.section--relays .inner {
+    display: block;
+    clear: both;
+    padding: 10% 0;
+}
+.section--relays .inner .summary {
+    float: none !important;
+    display: block;
+    padding: 20px;
+}
+.section--relays .inner .summary .summary__title {
+    font-size: 28px;
+}
+.section--relays .inner .summary .summary__description {
+    font-size: 24px;
+}
+.section--relays .inner .screen--relays {
+    margin: 20px auto;
+    clear: both;
+    position: static;
+    min-width: 200px;
+    height: 421.31px;
+    border-radius: 26.667px;
+}
