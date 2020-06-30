@@ -114,6 +114,25 @@ header .inner .header-left img {
 .section--intro .center-wrap {
     margin-top: 5rem;
 }
+#avatar {
+    height: 20rem;
+    width: 18.86rem;
+    background: url('../img/avatar.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    transition: 0.1s;
+}
+#avatar:hover {
+    background: url('../img/avatar_hover.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#avatar:active {
+    background: url('../img/avatar_active.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 /* ABILILTIES */
 .section--abilities {
@@ -203,4 +222,8 @@ header .inner .header-left img {
 }
 .section--portfolio ul.grid.of-portfolio a:hover {
     background: orange
+}
+}
+.section--portfolio ul.grid.of-portfolio a li {
+    text-align: center;
 }
