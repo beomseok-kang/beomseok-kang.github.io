@@ -92,13 +92,19 @@ header .inner .header-left {
 header .inner .header-left img {
     position: relative;
     display: block;
-    margin-left: 1rem;
     height: 4rem;
+}
+header .inner .header-right {
+    display: flex;
 }
 #contact {
     display: flex;
     align-items: center;
-    margin-right: 1rem;
+}
+#check-cv {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
 }
 
 /* INTRO */
