@@ -73,6 +73,8 @@ p {
     cursor: pointer;
     padding: 0 1.25rem;
     transition: 0.3s;
+    display: flex;
+    align-items: center;
 }
 .btn:hover {
     background: #343090;
@@ -96,13 +98,9 @@ header .inner .header-right {
     display: flex;
 }
 #contact {
-    display: flex;
-    align-items: center;
     margin-left: 1rem;
 }
 #check-cv {
-    display: flex;
-    align-items: center;
 }
 
 /* INTRO */
