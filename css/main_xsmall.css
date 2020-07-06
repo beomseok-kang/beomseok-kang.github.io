@@ -1,0 +1,47 @@
+/* HEADER */
+
+header .inner {
+    display: block;
+    padding: 1rem 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+header .inner .header-left {
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+#check-cv{
+
+}
+
+header .inner .header-right {
+    justify-content: center;
+}
+#contact {
+    margin-left: 1rem;
+}
+
+/* ABILITIES */
+.section--abilities ul.grid.of-abilities {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/* PORTFOLIO */
+.section--portfolio ul.grid.of-portfolio {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/* I AM */
+.section--iam .inner h2 {
+    padding: 0 2rem
+}
+.section--iam .inner p {
+    font-size: 1rem;
+}
+
+/* CONTACT */
+.section--contact .inner ul.grid.of-contact{
+    grid-template-columns: repeat(1, 1fr);
+    width: auto;
+}
+

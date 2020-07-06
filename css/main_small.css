@@ -1,0 +1,69 @@
+
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.75rem;
+}
+h3 {
+    font-size: 1.25rem;
+}
+.btn {
+    height: 2rem;
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+/* HEADER */
+header {
+    height: 4rem;
+}
+
+/* INTRO */
+
+.section--iam .inner h2 {
+    margin-top: 5rem;
+}
+
+#avatar {
+    height: 15rem;
+    width: 14.145rem;
+}
+
+/* ABILITIES */
+.section--abilities .fill-behind {
+    height: 7.5rem;
+    transform: translateY(-7.5rem);
+}
+
+.section--abilities ul.grid.of-abilities {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* PORTFOLIO */
+
+.section--portfolio ul.grid.of-portfolio {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* I AM */
+.section--iam {
+    padding: 3rem 0;
+}
+.section--iam .inner h2 {
+    padding-left: 2rem;
+    margin-top: 2rem;
+    display: block;
+}
+.section--iam .inner p {
+    padding: 0 2rem;
+}
+.section--iam .inner h2 #iam-animation {
+    display: block;
+    height: 1rem;
+    margin-top: 1rem;
+    margin-left: -20rem;
+}
+.section--iam .inner h2 #iam-animation .word {
+    
+}
