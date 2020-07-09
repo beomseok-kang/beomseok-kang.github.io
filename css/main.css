@@ -256,6 +256,11 @@ header .inner .header-right {
     background-position: center;
     background-size: cover;
 }
+#beomlog {
+    background: url('../img/beomlog_background.PNG') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 #PORTFOLIO {
     background: url('../img/PORTFOLIO_background.PNG') no-repeat;
     background-position: center;
