@@ -442,3 +442,13 @@ header .inner .header-right {
 .section--contact .inner h3 {
     margin-top: 4rem;
 }
+.section--contact .inner .blog-introduce {
+    width: 600px;
+    margin: 0 auto;
+}
+#to-tech-blog {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto 0;
+}
