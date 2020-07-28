@@ -58,12 +58,9 @@ header {
 .section--iam .inner p {
     padding: 0 2rem;
 }
-.section--iam .inner h2 #iam-animation {
-    display: block;
-    height: 1rem;
-    margin-top: 1rem;
-    margin-left: -20rem;
+.console-box {
+    font-size: 1.25rem;
 }
-.section--iam .inner h2 #iam-animation .word {
-    
+.console-container {
+    font-size: 1.25rem;
 }
