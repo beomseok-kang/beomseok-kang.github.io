@@ -286,19 +286,14 @@ header .inner .header-right {
     opacity: 0.9;
 }
 .section--portfolio ul.grid.of-portfolio li a.portfolio-description h4 {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     font-weight: 700;
     margin: 1.5rem;
     margin-top: 2.5rem;
 }
 .section--portfolio ul.grid.of-portfolio li a.portfolio-description p {
-    margin: 0 1.5rem;
     font-size: 1rem;
     font-weight: 700;
-}
-.section--portfolio ul.grid.of-portfolio li a.portfolio-description p+p {
-    margin-top: 1rem;
-    font-weight: 400;
 }
 .section--portfolio ul.grid.of-portfolio li a.portfolio-description div {
     position: absolute;
@@ -306,6 +301,7 @@ header .inner .header-right {
     right: 1.5rem;
 }
 .section--portfolio ul.grid.of-portfolio li a.portfolio-description i {
+    margin-left: 0.5rem;
     border: solid #FFFFFF;
     border-width: 0 3px 3px 0;
     display: inline-block;
