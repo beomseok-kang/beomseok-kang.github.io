@@ -42,6 +42,9 @@ h3 {
 p {
     line-height: 1.25;
 }
+strong {
+    font-weight: 700;
+}
 
 /* USEFUL SECTION/DIV CLASSES */
 .inner {
@@ -188,7 +191,7 @@ header .inner .header-right {
     opacity: 0.2;
 }
 .section--abilities ul.grid.of-abilities li h3 {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-weight: bold;
 }
 
@@ -200,6 +203,11 @@ header .inner .header-right {
 
 .section--abilities ul.grid.of-abilities li .block-wrapper p {
     text-align: center;
+}
+.section--abilities ul.grid.of-abilities li .block-wrapper p strong {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 1rem;
 }
 
 /* PORTFOLIO */
