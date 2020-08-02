@@ -80,6 +80,13 @@ p {
     background: #343090;
     color: #ffffff;
 }
+.disabled {
+    pointer-events: none;
+    cursor: default;
+    border-color: #999999 !important;
+    color: #999999 !important;
+    background: #EEEEEE !important;
+}
 
 /* HEADER */
 header {
