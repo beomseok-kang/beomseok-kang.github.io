@@ -276,6 +276,11 @@ header .inner .header-right {
     background-position: center;
     background-size: cover;
 }
+#react-sandbox {
+    background: url('../img/react_sandbox_background.PNG') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 #PORTFOLIO {
     background: url('../img/PORTFOLIO_background.PNG') no-repeat;
     background-position: center;
