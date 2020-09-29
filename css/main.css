@@ -163,13 +163,18 @@ header .inner .header-right {
     color: #FFFFFF;
     margin-bottom: 3rem;
 }
+.section--abilities .inner {
+    max-width: 79rem;
+}
 .section--abilities ul.grid.of-abilities {
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    column-gap: 2rem;
+    margin: 0 2rem;
 }
 .section--abilities ul.grid.of-abilities li {
     background: #FFFFFF;
     height: 12rem;
-    margin: 1rem;
     border-radius: 1rem;
     position: relative;
     transition: 0.3s;
@@ -223,13 +228,18 @@ header .inner .header-right {
 .section--portfolio p a:hover {
     text-decoration: underline;
 }
+.section--portfolio .inner {
+    max-width: 79rem;
+}
 .section--portfolio ul.grid.of-portfolio {
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    column-gap: 2rem;
+    margin: 0 2rem;
 }
 .section--portfolio ul.grid.of-portfolio li {
     position: relative;
     height: 15rem;
-    margin: 1rem;
     border-radius: 1rem;
     text-indent: -9999px;
 }
